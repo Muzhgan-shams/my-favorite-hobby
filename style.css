@@ -1,0 +1,131 @@
+body {
+  background: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.container {
+  max-width: 650px;
+  background: #ebb57fe1;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: 5px auto;
+  border-radius: 10px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background: #ffec;
+  border: 1px solid rgb(81, 81, 81);
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  color: #ffec;
+  background: #876039a9;
+  border: 1px solid #876039a9;
+}
+p {
+  line-height: 1.5;
+}
+hr {
+  border: none;
+  border-top: 0.01em solid black;
+  margin: 15px;
+}
+
+.theme-button {
+  background: black;
+  color: aliceblue;
+  font-size: 10px;
+  margin: 19px auto;
+}
+.theme-button:hover {
+  background: aliceblue;
+  color: black;
+}
+a {
+  color: brown;
+}
+.learn {
+  color: black;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+}
+.first-skate-img {
+  transition: all 200ms ease-in-out;
+}
+.first-skate-img:hover {
+  filter: contrast(90%);
+  transform: scale(1.1);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+.grid img {
+  width: 100%;
+  transition: all 200ms ease-in-out;
+}
+.grid img:hover {
+  transform: scale(2);
+}
+
+.dark-theme {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  color: aliceblue;
+}
+
+.dark-theme .container {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(25, 24, 24, 0.896) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+}
+.dark-theme button:hover {
+  color: aliceblue;
+  background: rgba(0, 0, 0, 0.15);
+}
+.dark-theme .theme-button {
+  background: aliceblue;
+  color: black;
+}
+.dark-theme a {
+  color: aliceblue;
+}
+.dark-theme hr {
+  border: none;
+  border-top: 0.01em solid rgb(255, 255, 255);
+  margin: 15px;
+}
